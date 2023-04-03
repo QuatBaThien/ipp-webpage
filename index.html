@@ -70,7 +70,7 @@
           </div>
           <div class="col-md-6 text-center text-lg-end">
             <div class="d-inline-flex align-items-center">
-              <a class="text-body px-2" href="">
+              <a class="text-body px-2" href="https://www.facebook.com/profile.php?id=100090040599378" target="_blank">
                 <i class="fab fa-facebook-f"></i>
               </a>
               <!-- <a class="text-body px-2" href="">
@@ -95,7 +95,7 @@
         <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
           <a href="index.html" class="navbar-brand">
             <h1 class="m-0 text-uppercase text-primary">
-              <img src="img/logo.png" height="70" />
+              <img src="img/Logo.png" height="70" />
             </h1>
           </a>
           <button
@@ -107,16 +107,27 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto py-0">
+            <div class="navbar-nav ms-auto py-0 menu">
               <a href="#topbar" class="nav-item nav-link active">Home</a>
               <a href="#about" class="nav-item nav-link">About</a>
               <a href="#services" class="nav-item nav-link">Service</a>
               <a href="#partners" class="nav-item nav-link">Partners</a>
               <a href="#team" class="nav-item nav-link">Team</a>
-              <a href="contact.html" class="nav-item nav-link">Contact</a>
+              <a href="contact.html" class="nav-item nav-link" id="contact-link">Contact</a>
+
+              <script>
+                const myLink = document.getElementById("contact-link");
+                myLink.onclick = function() {
+                  if(myLink.textContent === "Contact") {
+                    myLink.setAttribute("href", "contact.html");
+                  } else {
+                    myLink.setAttribute("href", "vi-contact.html");
+                  }
+                };
+              </script>
               <div class="lang-menu nav-item nav-link">
                 <div class="language-selected">
-                      English
+                      Language
                 </div>
                 <ul>
                     <li>
@@ -171,10 +182,11 @@
           </h5>
             <div class="position-relative h-100">
               <div class="mu-video-content">
-                <iframe id="iframe-video" style=" margin-left: 1%;" width="100%" height="360" src="https://www.youtube.com/embed/58K5QL0x6Zo?autoplay=1"  frameborder="0" ></iframe>							
-                <!-- <video id="my-video" style=" margin-left: 1%;" width="100%" height="360" autoplay muted loop controls>
+                <!-- <iframe id="iframe-video" style=" margin-left: 1%;" width="100%" height="360" src="https://www.youtube.com/embed/58K5QL0x6Zo?autoplay=1"  frameborder="0" ></iframe>							 -->
+                <!-- <video id="my-video" style=" margin-left: 1%;" width="100%" height="360" autoplay mu loop controls>
                   <source src="./Live-a-Life-You-Want.mp4" type="video/mp4" />
                 </video> -->
+                <img src="/img/mockup-logo (6).png" style="width: 100%;">
               </div>
               <!-- End Video content -->
             </div>
@@ -335,7 +347,7 @@ And that's why we became pioneers in Vietnam with the birth of IPP.
                 >
               </p>
               <p style="height:130px; width:100%;" class="service-item-content-4">
-                Tài chính và ngân hàng đầu tư là thế mạnh của chúng tôi.
+                Finance and investment banking are our strengths.
               </p>
 
               <a href="" class="btn btn-primary rounded-pill py-3 px-5 my-2 service-item-b"
@@ -360,7 +372,7 @@ And that's why we became pioneers in Vietnam with the birth of IPP.
           <h1 class="display-4 partner-text">PARTNERS</h1>
         </div>
         <div class="row g-5">
-          <div class="col-md-5 col-md-6">
+          <div class="col-sm-4" >
             <div
               class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center"
             >
@@ -376,7 +388,7 @@ And that's why we became pioneers in Vietnam with the birth of IPP.
               </a>
             </div>
           </div>
-          <div class="col-md-5 col-md-6">
+          <div class="col-sm-4">
             <div
               class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center"
             >
@@ -393,7 +405,7 @@ And that's why we became pioneers in Vietnam with the birth of IPP.
               </a>
             </div>
           </div>
-          <div class="col-lg-5 col-lg-6">
+          <div class="col-sm-4">
             <div
               class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center"
             >
@@ -413,12 +425,12 @@ And that's why we became pioneers in Vietnam with the birth of IPP.
               </a>
             </div>
           </div>
-          <div class="col-lg-5 col-lg-6">
+          <div class="col-sm-4">
             <div
               class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center"
             >
               <div class="mb-4">
-                <img src="img/TechZPet.png" />
+                <img src="img/TechZPet1.png" style="max-height: 150px;" />
               </div>
               <!-- <h4 class="mb-3">TECHZPET</h4> -->
               <p class="m-0">
@@ -432,6 +444,49 @@ And that's why we became pioneers in Vietnam with the birth of IPP.
                 <i class="bi bi-arrow-right"></i>
               </a>
             </div>
+            
+          </div>
+          <div class="col-sm-4">
+            <div
+              class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center"
+            >
+              <div class="mb-4">
+                <img src="img/Logo0.png" style="max-height: 130px;" />
+              </div>
+              <!-- <h4 class="mb-3">TECHZPET</h4> -->
+              <p class="m-0">
+            
+              </p>
+              <a
+                class="btn btn-lg btn-primary rounded-pill"
+                href=""
+                target="_blank"
+              >
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+            
+          </div>
+          <div class="col-sm-4">
+            <div
+              class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center"
+            >
+              <div class="mb-4">
+                <img src="img/Logo0.png" style="max-height: 130px;" />
+              </div>
+              <!-- <h4 class="mb-3">TECHZPET</h4> -->
+              <p class="m-0">
+            
+              </p>
+              <a
+                class="btn btn-lg btn-primary rounded-pill"
+                href=""
+                target="_blank"
+              >
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+            
           </div>
         </div>
       </div>
@@ -539,7 +594,7 @@ And that's why we became pioneers in Vietnam with the birth of IPP.
                 <div class="d-flex mt-auto border-top p-4">
                   <a
                     class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3"
-                    href="#"
+                    href="mailto: glam@ippcro.com"
                     ><i class="fa fa-envelope"></i
                   ></a>
                   <a
@@ -574,12 +629,12 @@ And that's why we became pioneers in Vietnam with the birth of IPP.
                 <div class="d-flex mt-auto border-top p-4">
                   <a
                     class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3"
-                    href="#"
+                    href="mailto: shawnlee@ippcro.com"
                     ><i class="fa fa-envelope"></i
                   ></a>
                   <a
                     class="btn btn-lg btn-primary btn-lg-square rounded-circle"
-                    href="https://www.linkedin.com/in/giang-lam-629a882/"
+                    href="linkedin.com/in/shawnleesunghwa"
                     target="_blank"
                     ><i class="fab fa-linkedin-in"></i
                   ></a>
@@ -611,12 +666,12 @@ And that's why we became pioneers in Vietnam with the birth of IPP.
                 <div class="d-flex mt-auto border-top p-4">
                   <a
                     class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3"
-                    href="#"
+                    href="mailto: pkirpes@ippcro.com"
                     ><i class="fa fa-envelope"></i
                   ></a>
                   <a
                     class="btn btn-lg btn-primary btn-lg-square rounded-circle"
-                    href="https://www.linkedin.com/in/giang-lam-629a882/"
+                    href="https://www.linkedin.com/in/paulkirpes/"
                     target="_blank"
                     ><i class="fab fa-linkedin-in"></i
                   ></a>
@@ -799,15 +854,16 @@ And that's why we became pioneers in Vietnam with the birth of IPP.
         <div class="row">
           <div class="col">
             <h4
-              class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4"
+              class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4 footer-text"
             >
               Get In Touch
             </h4>
             <!-- <p class="mb-4">No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed dolor</p> -->
-            <p class="mb-2">
-              <i class="fa fa-map-marker-alt text-primary me-3"></i>27 Hang Bai,
-              Hanoi, Vietnam
-            </p>
+            <div class="mb-2" style="display: flex;">
+              <i class="fa fa-map-marker-alt text-primary me-3 " aria-hidden="true"></i>
+              <p class="footer-content-1 mb-2" >27 Hang Bai,
+                Hanoi, Vietnam</p> 
+            </div>
             <p class="mb-2">
               <i class="fa fa-envelope text-primary me-3"></i>info@ippcro.com
             </p>
@@ -817,56 +873,61 @@ And that's why we became pioneers in Vietnam with the birth of IPP.
           </div>
           <div class="col">
             <h4
-              class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4"
+              class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4 service-cap"
             >
               SERVICES
             </h4>
             <div class="d-flex flex-column justify-content-start">
-              <a class="text-light mb-2" href="#"
-                ><i class="fa fa-angle-right me-2"></i>Home</a
+              <a class="text-light mb-2 service-item-1" href="#"
+              >Consulting</a>
+              <a class="text-light mb-2 service-item-2" href="#"
+                >Clinical development</a
               >
-              <a class="text-light mb-2" href="#"
-                ><i class="fa fa-angle-right me-2"></i>About Us</a
+              <a class="text-light mb-2 service-item-3" href="#"
+                >Commercialization</a
               >
-              <a class="text-light mb-2" href="#"
-                ><i class="fa fa-angle-right me-2"></i>Our Services</a
+              <a class="text-light mb-2 service-item-4" href="#"
+                >Investor</a
               >
-              <a class="text-light mb-2" href="#"
-                ><i class="fa fa-angle-right me-2"></i>Meet The Team</a
-              >
-              <a class="text-light mb-2" href="#"
-                ><i class="fa fa-angle-right me-2"></i>Latest Blog</a
-              >
-              <a class="text-light" href="#"
-                ><i class="fa fa-angle-right me-2"></i>Contact Us</a
-              >
+             
             </div>
           </div>
           <div class="col">
             <h4
-              class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4"
+              class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4 com-info"
             >
               COMPANY INFORMATION
             </h4>
-            <div class="d-flex flex-column justify-content-start">
-              <a class="text-light mb-2" href="#"
-                ><i class="fa fa-angle-right me-2"></i>Home</a
+            <div class="d-flex flex-column justify-content-start menu">
+              <a class="text-light mb-2 ft-home" href="#"
+                >Home</a
               >
-              <a class="text-light mb-2" href="#"
-                ><i class="fa fa-angle-right me-2"></i>About Us</a
+              <a class="text-light mb-2 ft-about" href="#about"
+                >About Us</a
               >
-              <a class="text-light mb-2" href="#"
-                ><i class="fa fa-angle-right me-2"></i>Our Services</a
+              <a class="text-light mb-2 ft-service" href="#services"
+                >Our Services</a
               >
-              <a class="text-light mb-2" href="#"
-                ><i class="fa fa-angle-right me-2"></i>Meet The Team</a
+              <a class="text-light mb-2 ft-partner" href="#partner"
+                >Our Partners</a
               >
-              <a class="text-light mb-2" href="#"
-                ><i class="fa fa-angle-right me-2"></i>Latest Blog</a
+              <a class="text-light mb-2 ft-team" href="#team"
+                >Meet The Team</a
               >
-              <a class="text-light" href="#"
-                ><i class="fa fa-angle-right me-2"></i>Contact Us</a
+              <a class="text-light ft-contacts" id="ft-contact" href=""
+                >Contact Us</a
               >
+              <script>
+                const myLink = document.getElementById("ft-contact");
+                myLink.onclick = function() {
+                  if($("contact-link").text() === "Contact"){
+                    myLink.setAttribute("href", "contact.html");
+                  }
+                  else{
+                    myLink.setAttribute("href", "vi-contact.html");
+                  }
+                };
+              </script>
             </div>
           </div>
           <!-- <div class="col-lg-3 col-md-6">
@@ -912,7 +973,7 @@ And that's why we became pioneers in Vietnam with the birth of IPP.
       ><i class="bi bi-arrow-up"></i
     ></a>
     <a
-      href="https://www.facebook.com"
+      href="https://www.facebook.com/profile.php?id=100090040599378"
       target="_blank"
       class="btn btn-lg btn-primary btn-lg-square fix-btn"
       ><i class="fab fa-facebook"></i

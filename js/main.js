@@ -202,12 +202,12 @@ function checkScroll() {
 $(function() {
   $(".vi").click(function() {
       //tabbar
-      $(".navbar-nav").children().eq(0).text("Trang chủ");
-      $(".navbar-nav").children().eq(1).text("Về chúng tôi");
-      $(".navbar-nav").children().eq(2).text("Dịch vụ");
-      $(".navbar-nav").children().eq(3).text("Đối tác");
-      $(".navbar-nav").children().eq(4).text("Đội ngữ");
-      $(".navbar-nav").children().eq(5).text("Liên hệ");
+      $(".menu").children().eq(0).text("Trang chủ");
+      $(".menu").children().eq(1).text("Về chúng tôi");
+      $(".menu").children().eq(2).text("Dịch vụ");
+      $(".menu").children().eq(3).text("Đối tác");
+      $(".menu").children().eq(4).text("Đội ngũ");
+      $(".menu").children().eq(5).text("Liên hệ");
       $(".language-selected").text("Ngôn ngữ");
 
       //Hero
@@ -239,12 +239,16 @@ $(function() {
       $(".team-item-content-2").text("Shawn, Giám đốc điều hành của SM Sino Technology Investment, đã kinh doanh quốc tế hơn 25 năm trong tổng số 32 năm sự nghiệp của mình.");
       $(".team-item-content-3").text("Paul là một doanh nhân, nhà điều hành và cố vấn đáng tin cậy đã được chứng minh cho hội đồng quản trị công ty, chủ doanh nghiệp và các nhà lãnh đạo chính phủ.");
     
-     
-      $(".about-container ul:nth-child(1) li:nth-child(2) a").text("Visão Geral");
-      $(".about-container ul:nth-child(1) li:nth-child(3) a").text("Pagamentos");
-      $(".about-container ul:nth-child(2) li:nth-child(1) a").text("Suporte");
-      $(".about-container ul:nth-child(2) li:nth-child(2) a").text("Central de Ajuda");
-      $(".about-container ul:nth-child(2) li:nth-child(3) a").text("Termos e Políticas");
+     //footer
+      $(".footer-text").text("Đến với chúng tôi");
+      $(".footer-content-1").text("27, Hàng Bài, Hà Nội, Việt Nam");
+      $(".com-info").text("Thông tin về công ty");
+      $(".ft-home").text("Trang chủ");
+      $(".ft-about").text("Về chúng tôi");
+      $(".ft-service").text("Dịch vụ");
+      $(".ft-partner").text("Đối tác");
+      $(".ft-team").text("Đội ngũ");
+      $(".ft-contacts").text("Liên hệ");
   });
 });
 

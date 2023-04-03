@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --primary: #007bff;
-    --secondary: #007bff;
+    --primary: #0f63b7;
+    --secondary: #0f63b7;
     --light: #EFF5F9;
-    --dark: #1D2A4D;
+    --dark: #020643;
 }
 
 .btn {
@@ -106,14 +106,19 @@
 }
 
 .hero-header {
-    background: url(../img/banner.jpg) top right no-repeat;
+    background: url(../img/banner1.jpg) top right no-repeat;
+    background-size: cover;
+
+}
+.hero-team-header {
+    background: url(../img/banner2.jpg) top right no-repeat;
     background-size: cover;
 }
-
 .service-item {
     position: relative;
-    height: 350px;
-    padding: 0 30px;
+    height: 200px;
+
+    padding: 0 0px;
     transition: .5s;
 }
 
@@ -175,7 +180,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--primary);
+    color: #2dc0ff;
     background: #FFFFFF;
     font-size: 22px;
     border-radius: 45px;
@@ -213,7 +218,7 @@
     align-items: center;
     justify-content: center;
     color: #FFFFFF;
-    background: var(--primary);
+    background: #2dc0ff;
     border-radius: 45px;
     font-size: 22px;
     transition: .5s;
