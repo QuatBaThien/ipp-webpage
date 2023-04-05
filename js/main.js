@@ -220,7 +220,7 @@ $(function() {
       document.getElementById("progress-img").src="../img/ideas_vi.png";
       //service
       $(".service-cap").text("Dịch vụ");
-      $(".service-text").text("Các dịch vụ của chúng tôi");
+      $(".service-text").text("Dịch vụ hấp dẫn");
       $(".service-item-1").text("TƯ VẤN");
       $(".service-item-2").text("NGHIÊN CỨU LÂM SÀN");
       $(".service-item-3").text("THƯƠNG MẠI HÓA");
@@ -230,9 +230,12 @@ $(function() {
       $(".service-item-content-2").text("Phạm vi bao quát và sự hiểu biết sâu sắc của chúng tôi về phát triển thuốc đã khiến chúng tôi trở thành những nhà lãnh đạo địa phương trong nghiên cứu lâm sàng.");
       $(".service-item-content-3").text("Liên hệ với chúng tôi để khám phá các cơ hội sản xuất, phân phối hoặc liên doanh tại Việt Nam hoặc khu vực Đông Nam Á.");
       $(".service-item-content-4").text("Tài chính và ngân hàng đầu tư là thế mạnh của chúng tôi.");
+      //journey
+      $(".journey-cap").text("Thương mại hóa");
+      $(".journey-text").text("Hành trình thương mại hóa");
       //parner
       $(".partner-cap").text("Đối tác");
-      $(".partner-text").text("Đối tác của chúng tôi");
+      $(".partner-text").text("Đối tác uy tín");
       //team
       $(".team-cap").text("Đội ngũ");
       $(".team-text").text("Các chuyên gia có bằng cấp");
