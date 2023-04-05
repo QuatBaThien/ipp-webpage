@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>MEDINOVA - Hospital Website Template</title>
+    <title>IPP innovative pharmaceutical partners</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -75,12 +75,37 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                        <a href="index.html" class="nav-item nav-link active ">Home</a>
+                        <a href="index.html" class="nav-item nav-link">Home</a>
                         <a href="index.html#about" class="nav-item nav-link">About</a>
                         <a href="index.html#services" class="nav-item nav-link">Service</a>
                         <a href="index.html#partners" class="nav-item nav-link">Partners</a>
-                        <a href="index.html#team" class="nav-item nav-link">Team</a>
-
+                        <a href="index.html#team" class="nav-item nav-link active">Team</a>
+                        <a href="contact.html" class="nav-item nav-link contact-link">Contact</a>
+                        <div class="lang-menu nav-item nav-link">
+                            <div class="language-selected">
+                                  Language
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="" class="en">En</a>
+                                </li>
+                                <li>
+                                  <a href="vi-team1.html" class="vi">Vi</a>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                       
+                        <script>
+                            const myLink = document.getElementById("contact-link");
+                            myLink.onclick = function() {
+                              if(myLink.textContent === "Contact") {
+                                myLink.setAttribute("href", "contact.html");
+                              } else {
+                                myLink.setAttribute("href", "vi-contact.html");
+                              }
+                            };
+                          </script>
                         <!-- <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu m-0">
@@ -92,7 +117,6 @@
                                 <a href="search.html" class="dropdown-item">Search</a>
                             </div>
                         </div> -->
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
                     </div>
                 </div>
             </nav>
@@ -127,8 +151,7 @@
 
                <p>Giang is an entrepreneur and investor with over 25 years of experience, including over 13 years in Vietnam. He is Founder of the RDA Vietnam Fund, a Boston-based fund investing in Vietnam. Prior to managing investments, Giang was a successful entrepreneur having co-founded several high-growth companies including Cambridge Energy and JungleSoft. Giang has held operational roles in diverse industries including mobile, telecom, robotics, manufacturing, and healthcare. Giang received his BS in Mechanical Engineering from the Massachusetts Institute of Technology and his MS in Mechanical Engineering from the University of Maryland at College Park. Giang is fluent in both Vietnamese and English.</p>
 
-              <p>Tel: +1-617-855-5848 (U.S.)</p>
-              <p>Tel: +84-8-3931-3262 (Vietnam)</p>
+        
            </div>
 
            <div class="col-12 col-sm-5 h-100">
@@ -199,9 +222,6 @@
                 <div class="col-md-6 text-center text-md-start">
                     <p class="mb-md-0">Copyright &copy;2023 Innovative Pharmaceutical Partners. All rights reserved.</p>
                 </div>
-                <!-- <div class="col-md-6 text-center text-md-end">
-                    <p class="mb-0">Designed by <a class="text-primary" href="https://htmlcodex.com">HTML Codex</a></p>
-                </div> -->
             </div>
         </div>
     </div>
