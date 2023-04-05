@@ -239,7 +239,33 @@ $(function() {
       $(".team-item-content-1").text("Giang là một doanh nhân và nhà đầu tư với hơn 25 năm kinh nghiệm, trong đó có hơn 13 năm ở Việt Nam, Ông là người sáng lập Quỹ RDA Việt Nam, một quỹ đầu tư vào Việt Nam có trụ sở tại Boston.");
       $(".team-item-content-2").text("Shawn, Giám đốc điều hành của SM Sino Technology Investment, đã kinh doanh quốc tế hơn 25 năm trong tổng số 32 năm sự nghiệp của mình.");
       $(".team-item-content-3").text("Paul là một doanh nhân, nhà điều hành và cố vấn đáng tin cậy đã được chứng minh cho hội đồng quản trị công ty, chủ doanh nghiệp và các nhà lãnh đạo chính phủ.");
-    
+      const linkg = document.getElementById("link-giang");
+      linkg.onclick = function() {
+        if($("contact-link").text() === "Contact"){
+          linkg.setAttribute("href", "team1.html");
+        }
+        else{
+          linkg.setAttribute("href", "vi-team1.html");
+        }
+      };
+      const linkl = document.getElementById("link-lee");
+      linkl.onclick = function() {
+        if($("contact-link").text() === "Contact"){
+          linkl.setAttribute("href", "team2.html");
+        }
+        else{
+          linkl.setAttribute("href", "vi-team2.html");
+        }
+      };
+      const linkp = document.getElementById("link-paul");
+      linkp.onclick = function() {
+        if($("contact-link").text() === "Contact"){
+          linkp.setAttribute("href", "team3.html");
+        }
+        else{
+          linkp.setAttribute("href", "vi-team3.html");
+        }
+      };
      //footer
       $(".footer-text").text("Đến với chúng tôi");
       $(".footer-content-1").text("27, Hàng Bài, Hà Nội, Việt Nam");
