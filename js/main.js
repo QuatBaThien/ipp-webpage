@@ -251,24 +251,7 @@ $(function() {
           linkg.setAttribute("href", "vi-team1.html");
         }
       };
-      const linkl = document.getElementById("link-lee");
-      linkl.onclick = function() {
-        if($("contact-link").text() === "Contact"){
-          linkl.setAttribute("href", "team2.html");
-        }
-        else{
-          linkl.setAttribute("href", "vi-team2.html");
-        }
-      };
-      const linkp = document.getElementById("link-paul");
-      linkp.onclick = function() {
-        if($("contact-link").text() === "Contact"){
-          linkp.setAttribute("href", "team3.html");
-        }
-        else{
-          linkp.setAttribute("href", "vi-team3.html");
-        }
-      };
+
      //footer
       $(".footer-text").text("Đến với chúng tôi");
       $(".footer-content-1").text("27, Hàng Bài, Hà Nội, Việt Nam");
