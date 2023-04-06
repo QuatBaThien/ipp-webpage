@@ -217,7 +217,7 @@ $(function() {
       $(".about-cap").text("Về chúng tôi");
       $(".about-text").text("Cải thiện việc chăm sóc sức khỏe thông qua thúc đẩy ");
       $(".about-content").text("IPP ra đời với mong muốn thúc đẩy, hỗ trợ các nhà nghiên cứu, startup Việt Nam trong lĩnh vực y dược nhanh chóng tiếp cận nguồn vốn đầu tư, kết nối mạng lưới chuyên gia toàn cầu, tiết kiệm chi phí và thời gian trong suốt quá trình phát triển sản phẩm. được thành lập bởi các nhà khoa học, doanh nhân, nhà đầu tư đổi mới sáng tạo với hơn 20 năm kinh nghiệm đầu tư trên thị trường quốc tế và am hiểu sâu sắc về nghiên cứu khoa học, thị trường và pháp luật, sau một thời gian dài làm việc và nghiên cứu thị trường tại Việt Nam, Chúng tôi nhận ra rằng trong lĩnh vực y học, Việt Nam còn nhiều vấn đề, nhưng với chúng tôi, đó cũng là những cơ hội mang lại giá trị rất lớn, không chỉ về mặt tài chính, mà quan trọng hơn, nếu thành công, chúng tôi có thể tác động tích cực đến hàng triệu người dân ở Việt Nam cũng như trên toàn thế giới, và đó là lý do chúng tôi trở thành những người tiên phong tại Việt Nam với sự ra đời của IPP.");
-      document.getElementById("progress-img").src="../img/ideas_vi.png";
+      document.getElementById("progress-img").src="img/ideas_vi.png";
       //service
       $(".service-cap").text("Dịch vụ");
       $(".service-text").text("Dịch vụ hấp dẫn");
