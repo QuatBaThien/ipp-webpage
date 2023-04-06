@@ -158,9 +158,9 @@
             >
               Welcome To IPP
             </h5>
-            <h1 class="display-1 text-white mb-md-4 hero-text text-uppercase">
+            <h3 class="display-3 text-white mb-md-4  text-uppercase">
               Improving healthcare through innovation
-            </h1>
+            </h3>
             <!-- <div class="pt-2">
                         <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 mx-2">Find Doctor</a>
                         <a href="" class="btn btn-outline-light rounded-pill py-md-3 px-md-5 mx-2">Appointment</a>
@@ -207,7 +207,7 @@
               >
                 About Us
               </h5>
-              <h1 class="display-4 about-text text-uppercase">Improving healthcare through innovation</h1>
+              <!-- <h1 class="display-4 about-text text-uppercase">Improving healthcare through innovation</h1> -->
             </div>
             <p class="about-content">
               IPP was born with the desire to promote and support Vietnamese researchers and startups in the fields of medicine and pharmacy to quickly access investment capital, connect a global network of experts, and save costs and time in the future. throughout the product development process.
@@ -283,7 +283,6 @@ And that's why we became pioneers in Vietnam with the birth of IPP.
               <p style="height:130px; width:100%;" class="service-item-content-1">
                 We can be a strategic adviser, a business connector, or an operational partner, depending on your needs. Finance and investment banking are our strengths.
               </p>
-
               <a href="" class="btn btn-primary rounded-pill py-3 px-5 my-2 service-item-b"
                 >Apply Now</a
               >
@@ -376,32 +375,24 @@ And that's why we became pioneers in Vietnam with the birth of IPP.
       </div>
       <img id="progress-img" src="img/ideas_en.png" style="width: 90%;display: block; margin-right: auto;margin-left: auto; ">
       <div class="pt-2 d-flex popup" style="margin-top: 30px; " onclick="clickFunction()">
-        <button type="button" class="btn btn-primary rounded-pill py-md-3 px-md-5 d-inline-block" style="position: absolute;left: 45%;" data-toggle="modal" data-target="#inforgraphicModal" style="cursor: pointer;">See more</button>
-        <!-- <span class="popuptext" id="myPopup">
-          <img src="img/Bia khong logo 3-01.jpg">
-        </span> -->
+        <button type="button" class="btn btn-primary rounded-pill py-md-3 px-md-5 d-inline-block" style="position: absolute;left: 45%;" d data-toggle="modal" data-target="#inforgraphicModal" style="cursor: pointer;">See more</button>
+  
       </div>
-    
-      <!-- <script>
-        // When the user clicks on div, open the popup
-        function clickFunction() {
-          var popup = document.getElementById("myPopup");
-          popup.classList.toggle("show");
-        }
-        </script> -->
-        
+  
+      
     </div>
-
-    <div class="modal fade" id="inforgraphicModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered" role="document">
-          <div class="modal-content">
-              <div class="modal-body" style="background-color: #F4F5EF;">
-                  <img src="/img/about.jpg" class="img-fluid w-100">
-              </div>
-          </div>
-      </div>
-  </div>
     
+  </div>
+   <!-- Modal -->
+   <div class="modal fade" id="inforgraphicModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body" style="background-color: #F4F5EF;">
+                <img src="img/infographic-modal-content.jpg" class="img-fluid w-100">
+            </div>
+        </div>
+    </div>
+</div>
     <!-- Our partners Start -->
     <div id="partners" class="container-fluid py-5">
       <div class="container">
@@ -671,7 +662,7 @@ And that's why we became pioneers in Vietnam with the birth of IPP.
                   <script>  
                     const linkl = document.getElementById("link-lee");
                     linkl.onclick = function() {
-                      if($("contact-link").text() === "Contact"){
+                      if($(".contact-link").text() === "Contact"){
                         linkl.setAttribute("href", "team2.html");
                       }
                       else{
@@ -719,7 +710,7 @@ And that's why we became pioneers in Vietnam with the birth of IPP.
                   <script>
                     const linkp = document.getElementById("link-paul");
                     linkp.onclick = function () {
-                      if ($("contact-link").text() === "Contact") {
+                      if ($(".contact-link").text() === "Contact") {
                         linkp.setAttribute("href", "team3.html");
                       }
                       else {
@@ -1062,6 +1053,23 @@ And that's why we became pioneers in Vietnam with the birth of IPP.
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-
+<!-- Adding scripts to use bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity=
+"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous">
+    </script>
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity=
+"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous">
+    </script>
+    <script src=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity=
+"sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous">
+    </script>  
   </body>
 </html>
