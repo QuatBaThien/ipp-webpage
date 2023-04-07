@@ -113,7 +113,7 @@
               <a href="index.html#services" class="nav-item nav-link">Service</a>
               <a href="index.html#partners" class="nav-item nav-link">Partners</a>
               <a href="index.html#team" class="nav-item nav-link">Team</a>
-              <a href="contact.html" class="nav-item nav-link" id="contact-link">Contact</a>
+              <a href="contact.html" class="nav-item nav-link contact" id="contact-link">Contact</a>
 
               <script>
                 const myLink = document.getElementById("contact-link");
@@ -662,7 +662,7 @@ And that's why we became pioneers in Vietnam with the birth of IPP.
                   <script>  
                     const linkl = document.getElementById("link-lee");
                     linkl.onclick = function() {
-                      if($(".contact-link").text() === "Contact"){
+                      if($(".contact").text() === "Contact"){
                         linkl.setAttribute("href", "team2.html");
                       }
                       else{
@@ -710,7 +710,7 @@ And that's why we became pioneers in Vietnam with the birth of IPP.
                   <script>
                     const linkp = document.getElementById("link-paul");
                     linkp.onclick = function () {
-                      if ($(".contact-link").text() === "Contact") {
+                      if ($(".contact").text() === "Contact") {
                         linkp.setAttribute("href", "team3.html");
                       }
                       else {
@@ -970,17 +970,17 @@ And that's why we became pioneers in Vietnam with the birth of IPP.
               <a class="text-light mb-2 ft-team" href="#team"
                 >Meet The Team</a
               >
-              <a class="text-light ft-contacts" id="ft-contact" href=""
+              <a class="text-light ft-contacts" id="ft-contact" href="contact.html"
                 >Contact Us</a
               >
               <script>
-                const myLink = document.getElementById("ft-contact");
-                myLink.onclick = function() {
-                  if($("contact-link").text() === "Contact"){
-                    myLink.setAttribute("href", "contact.html");
+                const clink = document.getElementById("ft-contact");
+                clink.onclick = function() {
+                  if($(".ft-contacts").text() === "Contact Us"){
+                    clink.setAttribute("href", "contact.html");
                   }
                   else{
-                    myLink.setAttribute("href", "vi-contact.html");
+                    clink.setAttribute("href", "vi-contact.html");
                   }
                 };
               </script>
